@@ -10,21 +10,7 @@ public class Client {
         //2. Solicitud de conexión
         Socket socket = new Socket("8.tcp.ngrok.io", 14724) ;
 
-            /*
-
-            //4. Cliente envía mensaje
-            String mensaje = "ICESI" ;
-            socket.getOutputStream().write(mensaje.getBytes("UTF-8"));
-
-            //7. Cliente recibe
-            byte[] buffer = new byte[300] ;
-            socket.getInputStream().read(buffer) ;
-            String received = new String(buffer, "UTF-8") ;
-
-            System.out.println(received.trim());
-
-            */
-
+          
 
         new Thread(()->{
             while(true) {//evita que el server se cierre
