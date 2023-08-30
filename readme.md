@@ -2,5 +2,5 @@
 
 ## Integrantes
 - JD
-- Gloria
+- Gloria Vicuña Ramos
 - David
